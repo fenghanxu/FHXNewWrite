@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FHXNewWrite_Example' do
+  pod 'FHXNewWrite', :path => '../'
+
+  target 'FHXNewWrite_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

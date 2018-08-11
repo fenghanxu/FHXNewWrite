@@ -1,0 +1,33 @@
+PODS:
+  - Charts (3.1.1):
+    - Charts/Core (= 3.1.1)
+  - Charts/Core (3.1.1)
+  - FHXFoundation (0.1.6)
+  - FHXNewWrite (0.1.0):
+    - Charts
+    - FHXFoundation
+    - Kingfisher
+    - SnapKit
+    - YYCache
+  - Kingfisher (4.8.1)
+  - SnapKit (4.0.0)
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - FHXNewWrite (from `../`)
+
+EXTERNAL SOURCES:
+  FHXNewWrite:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Charts: 90a4d61da0f6e06684c591e3bcab11940fe61736
+  FHXFoundation: 2e258421df559b4b1cdef4e6f0abf4fb92102ffa
+  FHXNewWrite: 7d1ecb20465d569e8804eea2f7c4ebc272d075d7
+  Kingfisher: 868c1149679a7ab6869be118faa9b5aed154aaf0
+  SnapKit: a42d492c16e80209130a3379f73596c3454b7694
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: 1554be845c8f4fcce262c4bdaef9680afb9deefd
+
+COCOAPODS: 1.4.0
